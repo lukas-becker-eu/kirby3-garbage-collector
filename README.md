@@ -1,5 +1,12 @@
-# Kirby 3 Plugin Starterkit
+# Kirby 3 garbage collector
 
-1. Clone this repo with ```$ git clone https://github.com/wearecandyblue/kirby3-plugin.git <your-new-project-directory>```
-2. ```$ git remote set-url origin <your-new-git-repo-url>```
-3. ```$ git submodule add https://github.com/wearecandyblue/kirby3-gtm.git site/plugins/gtm```
+First you need to disable the automatic garbage collector in your Kirby config:
+```
+<?php
+
+return [
+    'session' => [
+        'gcInterval' => false
+    ]
+];
+```
