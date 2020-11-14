@@ -1,6 +1,6 @@
 {
   "name": "candyblue/kirby3-garbage-collector",
-  "description": "A new plugin for Kirby 3 powered websites",
+  "description": "Clean up expired sessions with a cronjob.",
   "type": "kirby-plugin",
   "license": "MIT",
   "authors": [
